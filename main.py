@@ -1,6 +1,11 @@
-from datetime import date,time,datetime
-today=date.today()
-now=datetime.now()
-print("todays's date is ", today)
-print("nom the time is  ", now)
-print(today.year,today.month,today.day)
+list1=[2,0,1,5]
+print(list1)
+list2=[67.7,56.100000000,"Risanth"]
+print(list2)
+list3=[12,71,1,2,3,4,5,6,7,8,9,0,]
+(list3.sort())
+print(list3)
+list3.append(7557)
+print(list3)
+list3.clear()
+print(list3)
