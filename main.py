@@ -1,11 +1,14 @@
-list1=[2,0,1,5]
-print(list1)
-list2=[67.7,56.100000000,"Risanth"]
-print(list2)
-list3=[12,71,1,2,3,4,5,6,7,8,9,0,]
-(list3.sort())
-print(list3)
-list3.append(7557)
-print(list3)
-list3.clear()
-print(list3)
+tuplex= (True,1,2,3,4,7.5,5.7)
+print(tuplex)
+
+
+tuplex= (86,7,8)
+print(tuplex) 
+
+num=(86,86,65,65,87,87,98,98,98,89,89,80)
+print(num.count(98))
+tuplen =tuplex+(874,)
+print(tuplen)
+
+idk=num[6:9]
+print(idk)
